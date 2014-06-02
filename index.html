@@ -14,9 +14,32 @@
   </head>
   
   <body>
+
+    <form data-abide>
+
+      <!-- Email -->
+      <label>Email <small>required</small>
+      <input type="email" required>
+    </label>
+    <small class="error">An email address is required.</small>
+
+      <!-- URL type -->
+      <label>Web<small>required</small>
+      <input type="url" required>
+    </label>
+    <small class="error">Invalid URL</small>
+
+      <!-- Domain Pattern -->
+      <label>Domain<small>required</small>
+      <input type="text" pattern="domain" required>
+    </label>
+    <small class="error">Invalid URL</small>
+
+      <button>Submit</button>
+    </form>
   
 
-    <h1>378 Starter Website</h1>
+ 
   
 
 
